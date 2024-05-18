@@ -52,12 +52,23 @@ main {
     padding: 1rem;
 }
 
-section {
+/* Centered Content Styling */
+.center-content {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
     margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #333;
+.center-content h2 {
+    margin-bottom: 1rem;
+}
+
+.center-content p {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Footer Styling */
